@@ -31,5 +31,21 @@
 - click on install suggested plugins
 - create first admin user by filling info and click on finish it will redirect jenkins dashboard
 
+##### Day2 Job Creation
+
+- Left side window we can see some builds failed try to execute `sudo mount -o remount,size=4G /tmp`
+- Need to restart jenkins from begining
+- Now create a job `job1` with `freestyle porject` initially
+- Click on Build now 
+    - Entire Build process will handle by `Build Executor Status`
+- To create users we need to go setting icon right side of profile it will open Manage jenkins tab
+- Then go to security and select users
+- Theory of Least previliages(Giving permissions to users)
+- To provide access to users got security and select security Realm as `jenkins own user database`
+- Types of Authorization
+    - Matrix based authorization
+    - project based authorization
+    - Role based authorization
+
 
 
